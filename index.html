@@ -217,7 +217,7 @@
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = false; //Or false
 		embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
-		let product = '';
+		/*let product = '';
 		const url = window.location.href;
 		const findTerm = (term) => {
 		  if (url.includes(term)){
@@ -234,11 +234,11 @@
 		      break;
 		  default:
 		      product = 'Please Select';
-		};
+		};*/
 		
 		embedded_svc.settings.prepopulatedPrechatFields = {
 
-		 What_product_is_your_enquiry_about__c: product,
+		 What_product_is_your_enquiry_about__c: 'Please Select',
 		 What_would_you_like_to_contact_us_about__c: 'Please Select'
 		 	
 		};
